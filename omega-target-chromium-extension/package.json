@@ -32,5 +32,9 @@
   },
   "scripts": {
     "dev": "npm link omega-target && npm link omega-web && npm link omega-pac"
+  },
+  "volta": {
+    "node": "16.20.1",
+    "npm": "2.15.12"
   }
 }
