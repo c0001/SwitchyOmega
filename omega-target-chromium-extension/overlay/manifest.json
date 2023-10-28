@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "__MSG_manifest_app_name__",
+  "name": "__MSG_manifest_app_name__ (entropy ver.)",
   "version": "2.5.21",
   "description": "__MSG_manifest_app_description__",
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkhwZJT76btQ04EEMOFtZPLESD1TmSVjbLjs0OyesD9Ht8YllFPfJ3qmtbSQGVuvmxH1GK/jUO2QcEWb8bHuOjoRlq20fi5j5Aq90O8FKET+y5D8PxCyi3WmnquiEwaE5cNmaCsw/G2JlO+bZOtdQ/QKOvMxBAegABYimEGfSvCMVUEvpymys0gBhLoch72zPAiJUBkf0z8BtjYTueMRcRXkrSeRPLygUDQnZ1TkQWMYYBp/zqpD5ggxytAklEMQzR9Hn0lqu5s7iuUAgihbysPn/8Wh00Zj5FySpK//KcpG3JS7UWxC28oSt8z5ZR3YimnX+HX3P36V0mC1pgM4o7wIDAQAB",
@@ -57,7 +57,7 @@
   },
   "applications": {
     "gecko": {
-      "id": "switchyomega@feliscatus.addons.mozilla.org",
+      "id": "{5170db22-3ae9-42fc-94f0-41c167eac47a}",
       "strict_min_version": "55.0a1"
     }
   }
