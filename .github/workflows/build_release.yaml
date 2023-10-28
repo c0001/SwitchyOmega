@@ -57,6 +57,11 @@ jobs:
       - name: Set Env (Tag)
         run: |
           echo "RELEASE_TAGNAME=CI/branch/${{ github.ref_name }}/v${{ env.RELEASE_VERSION }}/${{ env.RELEASE_DATE }}" >> ${GITHUB_ENV}
+      - name: Set Volta
+        uses: volta-cli/action@v4
+        with:
+          node-version: 16.20.1
+          npm-version: 2.15.12
       - name: Build
         run: |
              make release
