@@ -26,6 +26,7 @@ release: build-all sha
 	rm -rf dist
 	mkdir  dist
 	mv omega-target-chromium-extension/build dist/
-	cd dist/build                                 && \
-	zip -r ../SwitchyOmega_v2.5.20.zip * && cd .. && \
-	rm -rf build
+	cd dist/build                                                               && \
+	sh -c 'zip -r ../SwitchyOmega_$(cat ../../.release-version).zip * && cd ..' && \
+	rm -rf build                                                                && \
+	sha256sum -b *.zip > sha256sum.log

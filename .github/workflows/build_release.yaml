@@ -80,6 +80,7 @@ jobs:
           prerelease: true
           files: |
             dist/*.zip
+            dist/sha256sum.log
 
 # Local Variables:
 # tab-width: 2
