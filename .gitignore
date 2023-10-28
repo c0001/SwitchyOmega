@@ -1,2 +1,8 @@
 node_modules
 bower_components
+omega-build/package-lock.json
+omega-pac/package-lock.json
+omega-target-chromium-extension/package-lock.json
+omega-target/package-lock.json
+omega-web/package-lock.json
+/dist/
